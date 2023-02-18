@@ -7,7 +7,7 @@ import { db } from '../firebase'
 import { FiBookmark } from 'react-icons/fi'
 
 const styles = {
-  wrapper: `max-w-[46rem] h-[10rem] flex items-center gap-[1rem] cursor-pointer shadow hover:shadow-xl hover:bg-white`,
+  wrapper: `max-w-[46rem] h-[10rem] flex items-center gap-[1rem] px-10 cursor-pointer shadow hover:shadow-xl hover:bg-white`,
   postDetails: `flex-[2.5] flex flex-col `,
   authorContainer: `flex gap-[.4rem]`,
   authorName: `font-semibold`,
