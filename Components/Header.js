@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import { useContext, useState } from 'react'
 import { MediumContext } from '../context/MediumContext'
 import UploadModal from './UploadModal'
-import Logo from '../static/logo.png'
+import Logo from '../static/Logo.png'
 import Modal from 'react-modal'
 
 Modal.setAppElement('#__next')

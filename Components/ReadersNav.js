@@ -6,7 +6,7 @@ import { FiBell } from 'react-icons/fi'
 import { BiBookmarks } from 'react-icons/bi'
 import { RiArticleLine } from 'react-icons/ri'
 import { BsPencilSquare } from 'react-icons/bs'
-import Qazi from '../static/qazi.jpg'
+import Qazi from '../static/cp.png'
 
 const styles = {
   wrapper       : `w-[5rem] h-screen flex flex-col justify-between items-center p-[1rem]`,
@@ -36,9 +36,10 @@ const ReadersNav = () => {
       </div>
       <div className={styles.profileImageContainer}>
         <Image
-          className={styles.profileImage}
-          src={Qazi}
-          alt='profile image icons'
+          className = {styles.profileImage}
+          src       = {Qazi}
+          alt       = 'profile image icons'
+          priority
         />
       </div>
     </div>

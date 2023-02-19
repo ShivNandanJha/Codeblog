@@ -1,15 +1,9 @@
 import Image from 'next/image'
 import { useContext } from 'react'
 import { MediumContext } from '../context/MediumContext'
-import { AiOutlineSearch } from 'react-icons/ai'
+
 import { MdMarkEmailUnread } from 'react-icons/md'
-import ReplitLogo from '../static/replit.png'
-import TutorialImg from '../static/tutorial.jpg'
-import CPLogo from '../static/cp.png'
-import Qazi from '../static/qazi.jpg'
-import JSLogo from '../static/jsLogo.png'
-import Link from 'next/link'
-import UploadModal from './UploadModal'
+
 
 const styles = {
   wrapper: `h-screen min-w-[10rem] max-w-[30rem] flex-[1.2] p-[2rem]`,
