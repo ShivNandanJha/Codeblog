@@ -4,7 +4,7 @@ import { useState, useContext, useEffect } from "react";
 import { MediumContext } from "../../context/MediumContext";
 import ReadersNav from "../../Components/ReadersNav";
 import ArticleMain from "../../Components/ArticleMain";
-import Recommendations from "../../components/Recommendations";
+import Recommendations from "../../Components/Recommendations";
 
 const styles = {
   wrapper: ``,

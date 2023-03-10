@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../static/Logo.png'
+import Logo from '../static/logo.png'
 import { HiOutlineHome } from 'react-icons/hi'
 import { FiBell } from 'react-icons/fi'
 import { BiBookmarks } from 'react-icons/bi'
