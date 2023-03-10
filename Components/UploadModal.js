@@ -72,8 +72,9 @@ const UploadModal = () => {
         <span className={styles.fieldTitle}>Banner Image URL</span>
         <span className={styles.inputContainer}>
           <input
-            className={styles.inputField}
-            type="text"
+            className = {styles.inputField}
+            type      = "text"
+            priority
             value={bannerImg}
             onChange={(event) => setbannerImg(event.target.value)}
           />

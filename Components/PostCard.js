@@ -74,7 +74,7 @@ const PostCard = ({ post }) => {
         <div className={styles.thumbnailContainer}>
           <Image
             src    = {`https://res.cloudinary.com/demo/image/fetch/${post.data.bannerImg}`}
-            // src    = {Logo}
+           
             alt    = 'thumbnail'
             height = {100}
             width  = {100}

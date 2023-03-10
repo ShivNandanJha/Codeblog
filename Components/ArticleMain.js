@@ -98,7 +98,8 @@ const ArticleMain = ({ post, author }) => {
             <div className={styles.articleMainContainer}>
               <div className={styles.bannerContainer}>
                 <Image
-                  className={styles.image}
+                  className = {styles.image}
+                  priority
                   src={`https://res.cloudinary.com/demo/image/fetch/${post[0].data.bannerImg}`}
                   alt="banner"
                   height={200}
